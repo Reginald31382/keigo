@@ -4,12 +4,14 @@ import Email from "./components/EmailForm";
 
 function App() {
   return (
-    <div className="app-container">
-      <div className="content-container">
-        <DogInfo />
-        <Email />
+    <>
+      <div className="app-container">
+        <div className="content-container">
+          <DogInfo />
+          <Email />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

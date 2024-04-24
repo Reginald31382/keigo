@@ -6,7 +6,12 @@ import keigo3 from "../assets/images/keigo3.png";
 const DogInfo = () => {
   return (
     <div className="container">
-      <h1 className="heading">Miniature Doberman Pinscher</h1>
+      <h1 className="heading">
+        <strong style={{ color: "red" }}>For Sale</strong>
+        <br />
+        <br />
+        Miniature Doberman Pinscher
+      </h1>
       <div className="content">
         <div className="text-section">
           <p>
@@ -41,7 +46,7 @@ const DogInfo = () => {
         </div>
         <h2
           className="askingFor"
-          style={{ display: "flex", justifyContent: "center" }}
+          style={{ display: "flex", justifyContent: "center", color: "red" }}
         >
           Asking for $1,600 but willing to negotiate
         </h2>
