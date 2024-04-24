@@ -1,3 +1,30 @@
 body {
   margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between; /* Align components side by side */
+  gap: 40px; /* Adjust the gap between DogInfo and Email */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack components vertically on smaller screens */
+    align-items: center; /* Center components vertically */
+    gap: 20px;
+  }
 }
