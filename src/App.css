@@ -100,6 +100,13 @@
   background-color: #0056b3;
 }
 
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -119,5 +126,9 @@
 
   .askingFor {
     text-align: center;
+  }
+
+  .form-input {
+    width: 100%; /* Adjust input width for mobile screens */
   }
 }
